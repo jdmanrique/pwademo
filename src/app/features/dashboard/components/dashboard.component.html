@@ -1,0 +1,54 @@
+<div class="h-full flex flex-col items-center">
+    <div class="w-1/2">
+      <label class="mr-2" for="selectFilter">Show: </label>
+      <select class="text-black" name="selectFilter" id="selectFilter" [(ngModel)]="filterChoice" (change)="changeFilter()">
+        <option value="0" selected>Overall</option>
+        <option value="1">Today</option>
+      </select>
+    </div>
+    <div class="w-full sm:w-1/2">
+      <canvas *ngIf="pieChartData" baseChart 
+        [data]="pieChartData" 
+        [labels]="pieChartLabels" 
+        [chartType]="pieChartType"
+        [options]="pieChartOptions"
+        [plugins]="pieChartPlugins"
+        [legend]="pieChartLegend">
+      </canvas>
+    </div>
+    <div class="w-full flex flex-col items-center sm:flex-row sm:w-1/2" *ngIf="total">
+      <div class="mt-10 w-1/2 flex flex-col rounded overflow-hidden shadow text-center text-red-600 sm:w-1/3 sm:mr-5">
+        <div class="h-10 pt-2 flex flex-auto items-center justify-center bg-red-100 text-base sm:text-lg lg:text-3xl font-bold font-sans">
+          <span class="mx-2">
+            {{filterChoice == "0" ? total.cases : total.cases_today}}
+          </span>
+        </div> 
+        <div class="py-1 w-full bg-red-200 text-sm lg:text-base font-semibold font-sans">
+          <span class="mx-2">Confirmed Cases</span>
+        </div>
+      </div>
+
+      <div class="mt-10 w-1/2 flex flex-col rounded overflow-hidden shadow text-center text-green-600 sm:w-1/3 sm:mr-5">
+        <div class="h-10 pt-2 flex flex-auto items-center justify-center bg-green-100 text-base sm:text-lg lg:text-3xl font-bold font-sans">
+          <span class="mx-2">
+            {{filterChoice == "0" ? total.recoveries : total.recoveries_today}}
+          </span>
+        </div> 
+        <div class="py-1 w-full bg-green-200 text-sm lg:text-base font-semibold font-sans">
+          <span class="mx-2">Confirmed Recoveries</span>
+        </div>
+      </div>
+
+      <div class="mt-10 w-1/2 flex flex-col rounded overflow-hidden shadow text-center text-gray-600 sm:w-1/3 sm:mr-5">
+        <div class="h-10 pt-2 flex flex-auto items-center justify-center bg-gray-100 text-base sm:text-lg lg:text-3xl font-bold font-sans">
+          <span class="mx-2">
+            {{filterChoice == "0" ? total.deaths : total.deaths_today}}
+          </span>
+        </div> 
+        <div class="py-1 w-full bg-gray-200 text-sm lg:text-base font-semibold font-sans">
+          <span class="mx-2">Confirmed Deaths</span>
+        </div>
+      </div>
+    </div>
+
+</div>
