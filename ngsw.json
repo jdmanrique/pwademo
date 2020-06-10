@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1591766415896,
+  "timestamp": 1591771542645,
   "index": "/pwademo/index.html",
   "assetGroups": [
     {
@@ -10,14 +10,14 @@
       "urls": [
         "/pwademo/favicon.ico",
         "/pwademo/index.html",
-        "/pwademo/main-es2015.cdc2b026bbf152bc92f6.js",
-        "/pwademo/main-es5.cdc2b026bbf152bc92f6.js",
+        "/pwademo/main-es2015.06e7216b27738eb402d5.js",
+        "/pwademo/main-es5.06e7216b27738eb402d5.js",
         "/pwademo/manifest.webmanifest",
         "/pwademo/polyfills-es2015.690002c25ea8557bb4b0.js",
         "/pwademo/polyfills-es5.1fd9b76218eca8053895.js",
         "/pwademo/runtime-es2015.1eba213af0b233498d9d.js",
         "/pwademo/runtime-es5.1eba213af0b233498d9d.js",
-        "/pwademo/styles.09e2c710755c8867a460.css"
+        "/pwademo/styles.2a54a7a0b5f9f23976c0.css"
       ],
       "patterns": []
     },
@@ -49,15 +49,15 @@
     "/pwademo/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/pwademo/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/pwademo/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/pwademo/index.html": "a98b3537d0a77882051801de7fe29ea0f72d755f",
-    "/pwademo/main-es2015.cdc2b026bbf152bc92f6.js": "e64926a90be2cbbc6e4a413afa7c11fdc306a648",
-    "/pwademo/main-es5.cdc2b026bbf152bc92f6.js": "f3a25bcd4abc5994a2ed81fb95a778262af8f197",
+    "/pwademo/index.html": "0bbaf079b2b63cb15006fa33957e16d8c56e1b7e",
+    "/pwademo/main-es2015.06e7216b27738eb402d5.js": "9c61cf16ce27da080135960eeffc40f807a06a1d",
+    "/pwademo/main-es5.06e7216b27738eb402d5.js": "9e390c16f9f967314c2e09930ce07afa7b7fd8e4",
     "/pwademo/manifest.webmanifest": "7a08f599f10ad932455b3b939d6b02019e253d9d",
     "/pwademo/polyfills-es2015.690002c25ea8557bb4b0.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
     "/pwademo/polyfills-es5.1fd9b76218eca8053895.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
     "/pwademo/runtime-es2015.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/pwademo/runtime-es5.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/pwademo/styles.09e2c710755c8867a460.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "/pwademo/styles.2a54a7a0b5f9f23976c0.css": "d5c3f4b8fb97590e5465aa9f25dc22eec0f591a7"
   },
   "navigationUrls": [
     {
